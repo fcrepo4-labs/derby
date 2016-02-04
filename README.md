@@ -16,9 +16,6 @@ bundle
 bundle exec ruby app/server.rb 
 ```
 
-License
--------
 
-This software is released under a public domain waiver (Unlicense).
 
 
