@@ -1,7 +1,7 @@
 require 'spec_helper'
 require 'rack/test'
 
-require 'server'
+require 'derby/server'
 
 describe Derby::Server do
   include Rack::Test::Methods
