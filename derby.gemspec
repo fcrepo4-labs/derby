@@ -28,6 +28,7 @@ Gem::Specification.new do |gem|
 
   gem.add_runtime_dependency     'rdf-ldp', '~> 0.4'
 
+  gem.add_development_dependency 'rake'
   gem.add_development_dependency 'rdf-spec',    '~> 1.1', '>= 1.1.13'
   gem.add_development_dependency 'rspec',       '~> 3.0'
   gem.add_development_dependency 'rack-test',   '~> 0.6'
