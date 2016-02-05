@@ -11,9 +11,9 @@ Derby is an LDP Server with Fedora support.
 Start Up
 --------
 
-```
-bundle
-bundle exec ruby app/server.rb 
+```console
+$ bundle
+$ rackup
 ```
 
 
