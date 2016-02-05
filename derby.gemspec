@@ -15,10 +15,11 @@ Gem::Specification.new do |gem|
   gem.email              = 'johnson.tom@gmail.com'
 
   gem.platform           = Gem::Platform::RUBY
-  gem.files              = %w(AUTHORS CHANGELOG.md README.md UNLICENSE VERSION) + 
+  gem.files              = %w(AUTHORS CHANGELOG.md README.md LICENSE VERSION) + 
                            Dir.glob('lib/**/*.rb') + Dir.glob('app/**/*.rb')
-  gem.bindir             = %q(bin)
-  gem.executables        = %w(derby)
+  # Add a executables later?
+  # gem.bindir             = %q(bin) 
+  # gem.executables        = %w(derby)
   gem.default_executable = gem.executables.first
   gem.require_paths      = %w(lib app)
   gem.has_rdoc           = false
