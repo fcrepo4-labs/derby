@@ -17,9 +17,8 @@ Gem::Specification.new do |gem|
   gem.platform           = Gem::Platform::RUBY
   gem.files              = %w(AUTHORS CHANGELOG.md README.md LICENSE VERSION) + 
                            Dir.glob('lib/**/*.rb') + Dir.glob('app/**/*.rb')
-  # Add a executables later?
-  # gem.bindir             = %q(bin) 
-  # gem.executables        = %w(derby)
+  gem.bindir             = %q(exe)
+  gem.executables        = %w(derby-ldp)
   gem.default_executable = gem.executables.first
   gem.require_paths      = %w(lib app)
   gem.has_rdoc           = false

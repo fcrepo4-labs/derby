@@ -13,8 +13,12 @@ Installation
 
 Install the gem with `gem install derby` or add `gem 'derby'` to your Gemfile.
 
-Start Up
---------
+To start the server do: `derby-ldp`.
+
+Development
+-----------
+
+To start the server in development, do:
 
 ```console
 $ bundle
