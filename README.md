@@ -13,7 +13,7 @@ Start Up
 
 ```console
 $ bundle
-$ rackup
+$ bundle exec rackup
 ```
 
 
