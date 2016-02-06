@@ -1,3 +1,3 @@
-require './app/server'
+require './lib/derby/server'
 
 run Derby::Server
