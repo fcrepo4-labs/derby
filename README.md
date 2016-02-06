@@ -8,6 +8,19 @@ the [Fedora Commons](http://fedorarepository.org/) API specification.
 
 Derby is an LDP Server with Fedora support.
 
+Implementation Status
+---------------------
+
+The base LDP implementation is provided by
+[`RDF::LDP`](https://github.com/ruby-rdf/rdf-ldp). `ldp:RDFSource` support is
+in-memory only; `ldp:NonRDFSource`s are stored on disk at `./.storage` and are
+not currently cleaned up on server shutdown.
+
+Further development depends on progress specifying a Fedora Commons Repository
+API. Known API issues & questions are tracked with the
+[fcr api](https://github.com/fcrepo4-labs/derby/issues?q=is%3Aissue+is%3Aopen+label%3A%22fcr+api%22)
+tag.
+
 Installation
 ------------
 
