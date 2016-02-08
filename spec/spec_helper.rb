@@ -2,6 +2,7 @@ require "bundler/setup"
 require 'rdf/isomorphic'
 
 require 'derby'
+require 'derby/server'
 
 require 'rdf/spec'
 require 'rdf/spec/matchers'
