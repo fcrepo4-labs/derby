@@ -1,3 +1,10 @@
+0.1.0 - 2016-02-09
+------------------
+
+- Upgrade RDF::LDP to 0.5.1.
+  - Fixes a bug in cleanly differentiating resources with a trailing '/'
+  - Fixes ldp:insertedContentRelation for Indirect Containers
+
 0.0.3 - 2016-02-05
 ------------------
 
