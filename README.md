@@ -4,14 +4,16 @@ Derby
 __Note__: this project is a work in progress attempting to track ongoing work on
 the [Fedora Commons](http://fedorarepository.org/) API specification.
 
-![Derby Hat](/logo/derby.png)
+![Derby is mostly a logo](/logo/derby.png)
 
 [![Build Status](https://travis-ci.org/fcrepo4-labs/derby.svg?branch=master)](https://travis-ci.org/fcrepo4-labs/derby)
 
-Derby is an LDP Server with Fedora support.
+Derby is an LDP Server with Fedora support. 
 
 Implementation Status
 ---------------------
+
+_Derby is mostly a logo._
 
 The base LDP implementation is provided by
 [`RDF::LDP`](https://github.com/ruby-rdf/rdf-ldp). `ldp:RDFSource` support is
