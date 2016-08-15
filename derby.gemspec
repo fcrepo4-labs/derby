@@ -26,7 +26,7 @@ Gem::Specification.new do |gem|
   gem.required_ruby_version      = '>= 2.0.0'
   gem.requirements               = []
 
-  gem.add_runtime_dependency     'rdf-ldp', '>= 0.5.1'
+  gem.add_runtime_dependency     'rdf-ldp',     '>= 0.5.1'
 
   gem.add_development_dependency 'rake'
   gem.add_development_dependency 'rdf-spec',    '~> 2.0'

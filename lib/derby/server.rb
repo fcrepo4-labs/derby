@@ -13,11 +13,11 @@ module Derby
     configure { set :repository, RDF::Repository.new }
 
     get '/' do
-      begin 
+      begin
         RDF::LDP::Resource.find(RDF::URI(request.url), settings.repository)
       rescue RDF::LDP::NotFound 
         RDF::LDP::Container.new(RDF::URI(request.url), settings.repository)
-          .create('', 'text/turtle')
+          .create(StringIO.new, 'text/turtle')
       end
     end
 
