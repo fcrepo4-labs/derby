@@ -1,14 +1,20 @@
 language: ruby
+cache: bundler
+dist: trusty
+sudo: false
+
 bundler_args: --without debug
 script: "bundle exec rspec spec"
 env:
   - CI=true
 rvm:
-  - 2.2.4
-  - 2.3.0
-  - jruby
-cache: bundler
-sudo: false
+  - 2.2
+  - 2.3
+  - 2.4
+  - ruby-head
+  - jruby-9.1.9.0
+  - jruby-head
 matrix:
   allow_failures:
-    - rvm: jruby
+    - rvm: jruby-head
+    - rvm: jruby-9.1.9.0
