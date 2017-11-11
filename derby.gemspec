@@ -15,7 +15,7 @@ Gem::Specification.new do |gem|
   gem.email              = 'johnson.tom@gmail.com'
 
   gem.platform           = Gem::Platform::RUBY
-  gem.files              = %w(AUTHORS CHANGELOG.md README.md LICENSE VERSION) + 
+  gem.files              = %w(AUTHORS CHANGELOG.md README.md LICENSE VERSION) +
                            Dir.glob('lib/**/*.rb') + Dir.glob('app/**/*.rb')
   gem.bindir             = %q(exe)
   gem.executables        = %w(derby-ldp)
@@ -26,7 +26,7 @@ Gem::Specification.new do |gem|
   gem.required_ruby_version      = '>= 2.0.0'
   gem.requirements               = []
 
-  gem.add_runtime_dependency     'rdf-ldp',     '>= 0.5.1'
+  gem.add_runtime_dependency     'rdf-ldp',     '~> 1.0.1'
 
   gem.add_development_dependency 'rake'
   gem.add_development_dependency 'rdf-spec',    '~> 2.0'
