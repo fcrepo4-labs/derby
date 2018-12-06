@@ -6,7 +6,7 @@ the [Fedora Commons](http://fedorarepository.org/) API specification.
 
 ![Derby is mostly a logo](/logo/derby.png)
 
-[![Build Status](https://travis-ci.org/fcrepo4-labs/derby.svg?branch=master)](https://travis-ci.org/fcrepo4-labs/derby)
+[![Build Status](https://travis-ci.com/fcrepo4-labs/derby.svg?branch=master)](https://travis-ci.com/fcrepo4-labs/derby)
 
 Derby is an LDP Server with Fedora support. 
 
