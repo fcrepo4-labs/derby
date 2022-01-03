@@ -10,6 +10,8 @@ jobs:
     name: Ruby ${{ matrix.ruby }}
     if: "contains(github.event.commits[0].message, '[ci skip]') == false"
     runs-on: ubuntu-latest
+    env:
+      CI: true
     strategy:
       fail-fast: false
       matrix:
